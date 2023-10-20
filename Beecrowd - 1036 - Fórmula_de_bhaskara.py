@@ -4,9 +4,7 @@ A, B, C = num
 A = float(A)
 B = float(B)
 C = float(C)
-
 delta = B**2 - 4*A*C
-
 if delta < 0.0 or A == 0:
     print('Impossivel calcular')
 else:
