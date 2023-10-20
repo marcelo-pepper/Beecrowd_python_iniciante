@@ -8,7 +8,6 @@ list.sort()
 menor = list[0]
 medio = list[1]
 maior = list[2]
-
 if (a + b) > c and (a + c) > b and (b + c) > a:
     if a == b == c:
         perimetro_equilatero = a * 3
@@ -22,8 +21,6 @@ if (a + b) > c and (a + c) > b and (b + c) > a:
         else:
             perimetro_isosceles = (medio + menor)*2
         print('Perimetro = {:.1f}'.format(perimetro_isosceles))
-
-
 else:
     area_trapezio = ((a + b)* c) / 2
     print('Area = {:.1f}'.format(area_trapezio))
