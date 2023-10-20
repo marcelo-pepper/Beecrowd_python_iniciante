@@ -2,7 +2,6 @@ num = input().split()
 x, y = num
 x = float(x)
 y = float(y)
-
 if (x == 0) and (y == 0):
     print('Origem')
 elif (x >= 0) and (y >= 0):
